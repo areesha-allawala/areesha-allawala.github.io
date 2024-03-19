@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+  <div class="navbar">
+    <a href="index.html">Home </a>
+    <div class="dropdown">
+    <button class="dropbtn" onclick="DDFunction()">Experiences</button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="extracurriculars.html">Extracurriculars</a>
+      <a href="jobs.html">Jobs</a>
+    </div>
+    </div> 
+    <a href="references.html">References </a>
+    <a href="contact.html">Contact </a>  
+    <a href="questions.html">Form</a> 
+  </div>
+
+
+
+
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+</head>
+ 
+ 
+<body>  
+    <div id=myname>
+        <h1>Areesha Alamgir </h1>
+    </div>
+        
+            <button id="EnterButton" type="button" >Name!</button>
+
+                <script>
+                document.getElementById("EnterButton").onclick = function(){
+                var name=prompt("Enter your name here: ");
+                if (name != null && name != "") {
+                    document.getElementById("myname").innerHTML = "Welcome " + name;
+                }
+                };</script>
+
+    <img 
+    src="Me.JPG" 
+    onclick="bigimg()" 
+    id="meimg"/>
+
+    <script>
+    img=document.getElementById("meimg");
+    function bigimg() {
+    img.style.transform="scale(1.5)";}   
+    </script>
+
+
+
+<hr>
+    <h2>Education</h2>
+        <ol><p><u><li>Erindale Secondary School </u><em>(2017-2021)</em></p></li>
+        <p><u><li>Toronto Metropolitan University</u> <em>(2021-2025)</em></p></li>
+        </ol>
+
+<hr>
+
+    <h2>Program Description </h2>
+        <ul>
+        <p><em><li><a href="https://www.torontomu.ca/calendar/2023-2024/programs/trsm/business_tech/#!accordion-1595938804212-full-time--four-year-program">Business Technology Management</a></em><u></u></p></li>
+        <p>This program revolves around the core concepts of traditional business while intergrating many information technology courses as well. The many universal business courses include Accounting, Marketing, Economics to name a few. The program also includes info technology courses that teach the students languages like R, Python, and SQL.</p>
+        <p><em><li><a href="https://www.torontomu.ca/calendar/2023-2024/courses/information-technology-management/ITM/618/">Most useful course </a></em></p></li>
+        <p>A course I found most useful during my 3 years was ITM 618. This course revolves around R and teaches students fundementals of data mangement. It allows students to conceptualize enterprise level data storage and ways to manage and organizesuch data.</p>
+        </ul>
+
+<hr>
+
+    <h2>Awards </h2>
+        <ul>
+        <li>Greaduated high school with honours</li>
+        </ul>
+
+
+<hr>
+    
+    <table>
+    <tr>
+        <td><div class="desc"><p>Check out my program!</p></div></td> 
+        <td> <div class="links"> <a href="https://www.torontomu.ca/programs/undergraduate/business-technology-management/"> Here!</a></div> </td>
+    </tr>
+    
+    <tr>
+        <td><div class= "desc"> <p>Check out my LinkedIn!</p></div></td>
+        <td> <div class="links"> </p> <a href="https://www.linkedin.com/in/areesha-alamgir-677107257/">Here!</a>  </div> </td>
+    </tr>
+    </table>
+
+
+
+ </body>
+ </html>

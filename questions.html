@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  <div class="navbar">
+    <a href="index.html">Home </a>
+    <div class="dropdown">
+    <button class="dropbtn" onclick="DDFunction()">Experiences</button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="extracurriculars.html">Extracurriculars</a>
+      <a href="jobs.html">Jobs</a>
+    </div>
+    </div> 
+    <a href="references.html">References </a>
+    <a href="contact.html">Contact </a>  
+    <a href="questions.html">Form</a> 
+  </div>
+
+
+
+
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+</head>
+<body>
+<form action="/action_page.php">
+    <p>What is your name?</p>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+      </form>
+
+      <p>What is todays date?</p>
+      <form action="/action_page.php">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+      </form>
+
+       
+        <p>What do you mention in your website that is crucial in your opinion? </p>
+        <form>
+            <input type="radio" id="Educational background" name="fav_language" value="Educational background">
+            <label for="Educational background">Educational background</label><br>
+            <input type="radio" id="Extra curricular clubs/volunteer" name="fav_language" value="Extra curricular clubs/volunteer">
+            <label for="Extra curricular clubs/volunteer">Extra curricular clubs/volunteer</label><br>
+            <input type="radio" id="Hobbies" name="fav_language" value="Hobbies">
+            <label for="Hobbies">Hobbies</label>
+            <input type="radio" id="Work experience" name="fav_language" value="Work experience">
+            <label for="Work experiences">Work experience</label>
+        </form>
+
+        <p>What is something you do not see in a personal website that you would like to see?</p>
+        <form>
+            <input type="checkbox" id="op1" name="op1" value="Social Media links">
+            <label for="op1">Social Media links</label><br>
+            <input type="checkbox" id="op2" name="op2" value="Video introductions">
+            <label for="op2">Video introductions</label><br>
+            <input type="checkbox" id="op3" name="op3" value="Personal projects">
+            <label for="op3">Personal projects</label>
+            <input type="checkbox" id="op4" name="op4" value="Testimonies / Reference">
+            <label for="op4">Testimonies / Reference</label>
+        </form>
+
+        <p>On a scale of 0-10, how likely are you to use a personal website to make hiring decisions</p>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+            <p>Value: <span id="val"></span></p>
+          </div>
+
+        <p>Why would you or would you not use a personal website to make hiring decisions?</p>
+        <form>
+            <p><label for="longans">Answer:</label></p>
+            <textarea id="longans" name="longans" rows="4" cols="50">Type your answer here</textarea>
+            <br>
+          </form>
+
+        <p>Upload your resume</p>
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile"><br><br>
+
+        <p>How many personal websites have you visited lately?</p>
+            <label for="quantity">Between 1 and 100 (Selevt 101 if 100+):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="101">
+          </form>
+</form>
+
+
+        
+<button type="submit" class="submit-btn">Submit</button>
+<button type="button" class="clear-btn">Clear</button>
+</form>
+</body>

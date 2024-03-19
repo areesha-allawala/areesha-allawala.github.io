@@ -1,0 +1,127 @@
+
+
+Body {
+    
+    
+    background-color: rgb(245, 216, 239); color: rgb(80, 67, 112); font-size: 100%; font-family: Arial;
+    margin-left: 15; margin-top: 15; margin-bottom: 15; margin-right: 15;}
+    img{height: 250px; width: auto;}
+    h1{color: rgb(60, 26, 92); font-size: 90; font-family: 'Times New Roman', Times, serif;}
+    h2{color: rgb(114, 51, 174); font-size: 40; font-family: 'Times New Roman', Times, serif;}
+    p{color: rgb(0, 0, 0); font-size: 20; font-family: 'Times New Roman', Times, serif;}
+    
+
+    A:link {color: rgb(0, 14, 119);}
+    A:visited {color: rgb(157, 139, 244);}
+    A:active {tcolor: rgb(113, 0, 0);}
+    A:hover {color: rgb(184, 65, 65);}
+
+    table, th, td {
+    border: 1px solid;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #5a4675;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: #9f92af;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: block;
+  }
+
+/*SLIDER*/
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #32034d;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #9d6dc0;
+  cursor: pointer;
+}
+
+.slider::after{
+  content:'10';
+}
+
+.slider::before{
+  content:'0';
+}

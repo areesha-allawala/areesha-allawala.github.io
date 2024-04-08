@@ -1,99 +1,156 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
-  <div class="navbar">
-    <a href="index.html">Home </a>
-    <div class="dropdown">
-    <button class="dropbtn" onclick="DDFunction()">Experiences</button>
-    <div class="dropdown-content" id="myDropdown">
-      <a href="extracurriculars.html">Extracurriculars</a>
-      <a href="jobs.html">Jobs</a>
-    </div>
-    </div> 
-    <a href="references.html">References </a>
-    <a href="contact.html">Contact </a>  
-    <a href="aboutme.html">About me</a> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Areesha Allawala - Business Technology Management Graduate</title>
+    <meta name="description" content="Areesha Allawala, graduate of Toronto Metropolitan University's Business Technology Management program, specializing in R, Python, SQL, and data management.">
+    <meta name="keywords" content="Areesha Allawala, Business Technology Management, Toronto Metropolitan University, ITM 618, R programming, Python, SQL, data management, graduated with honors">
 
-    <button type="button" class="btn btn-outline-dark">Dark</button>
-    
+  <div class="navbar" >
+    <a href=#intropart>Home </a>
+    <a href=#resumepart>Resume </a>
+    <a href=#contactpart>Contact</a>     
   </div>
 
 
-
-
 <link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
  
  
 <body>  
-    <div id=myname>
-        <h1>Areesha Alamgir </h1>
+
+    <section class="namename">
+    <a id="intropart"></a>
+    <div class="name">
+        <h1>Areesha Allawala</h1>
     </div>
-        
-            <button id="EnterButton" type="button" >Name!</button>
+    </section>
 
-                <script>
-                document.getElementById("EnterButton").onclick = function(){
-                var name=prompt("Enter your name here: ");
-                if (name != null && name != "") {
-                    document.getElementById("myname").innerHTML = "Welcome " + name;
-                }
-                };</script>
 
+    <section class="mainstuff">   
+    <div class="intro">
+        <h2>Welcome to my resume website! Here you will find all the information you will need to assess me as a possible employee.</h2>
+    </div>
+    
+    <div class="pic">
     <img 
-    src="Me.JPG" 
-    onclick="bigimg()" 
-    id="meimg"/>
+    src="_.jpeg"
+    id="image"/>
+    </div>
+    </section>
 
-    <script>
-    img=document.getElementById("meimg");
-    function bigimg() {
-    img.style.transform="scale(1.5)";}   
-    </script>
-
-
-
-<hr>
-    <h2>Education</h2>
-        <ol><p><u><li>Erindale Secondary School </u><em>(2017-2021)</em></p></li>
-        <p><u><li>Toronto Metropolitan University</u> <em>(2021-2025)</em></p></li>
-        </ol>
-
-<hr>
-
-    <h2>Program Description </h2>
-        <ul>
-        <p><em><li><a href="https://www.torontomu.ca/calendar/2023-2024/programs/trsm/business_tech/#!accordion-1595938804212-full-time--four-year-program">Business Technology Management</a></em><u></u></p></li>
-        <p>This program revolves around the core concepts of traditional business while intergrating many information technology courses as well. The many universal business courses include Accounting, Marketing, Economics to name a few. The program also includes info technology courses that teach the students languages like R, Python, and SQL.</p>
-        <p><em><li><a href="https://www.torontomu.ca/calendar/2023-2024/courses/information-technology-management/ITM/618/">Most useful course </a></em></p></li>
-        <p>A course I found most useful during my 3 years was ITM 618. This course revolves around R and teaches students fundementals of data mangement. It allows students to conceptualize enterprise level data storage and ways to manage and organizesuch data.</p>
-        </ul>
-
-<hr>
-
-    <h2>Awards </h2>
-        <ul>
-        <li>Greaduated high school with honours</li>
-        </ul>
+    <section class="regular">
+    <a id="resumepart"></a>   
+    <h2>Resume</h2>
+    <p><a href="Resume_Areesha_Allawala.pdf" target="_blank">View my resume </a></p>
 
 
-<hr>
+   
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Work experience
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Mississauga Public Library System | Public Service | Mississauga | Library Assisstant | Oct 2023-Present</strong> 
+              <li>Operated WorkFlows and ensured all personal data was recorded and formatted accurately</li>
+               <li>Operated Active Nets Point of Sale system</li>
+               <li>Trained in readers advisory methods (recommending books, navigating catalogue to fit the customers’
+                needs)</li>
+                <br></br>
+          
+            <strong>Mississauga Public Library System | Public Service | Mississauga | Library page | Feb 2020-Oct 2023</strong> 
+            <li>Maintained and organized database of library collections</li>
+            <li>Work with staff team on various projects and assignments when necessary to meet team objectives</li>
+                <br></br>
+
+            <strong>McDonalds | Food Services | Mississauga | Cashier</strong> 
+            <li>Collected customer orders and facilitated payments in high volume environment</li>
+            <li>Responded to and resolved customer complaints and ensured high levels of customer satisfaction</li>
+            <li>Worked in a fast-paced team environment collaborating with crew to ensure smooth operation of restaurant</li>
+            <br></br>
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Extracurriculars
+            </button>
+          </h2>
+          </ul>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Global Mentorship Initiative </strong>Participated in a custom mentorship program designed to strengthen skills in networking, community
+              building, and job-readiness for the tech sector
+              <br></br>
+              <strong>Women in Cybersecurity (WiCyS) Global </strong>Member of WiCyS Global Online Community and student chapter member at Toronto Metropolitan
+              University
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Education
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Erindale secondary school | Sept 2017-June 2021</strong> 
+              <br></br>
+              <Strong>Toronto Metropolitan University | Sept 2021-April 2025</Strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br></br>
+
+      
+      <section class="contact-form">
+        <a id="contactpart"></a>
+        <h2>Contact</h2>
+        <form id="contactForm" action="submit_form.php" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
     
-    <table>
-    <tr>
-        <td><div class="desc"><p>Check out my program!</p></div></td> 
-        <td> <div class="links"> <a href="https://www.torontomu.ca/programs/undergraduate/business-technology-management/"> Here!</a></div> </td>
-    </tr>
+    <section class="bottomnav">
+        <footer>
+        <center>
+            <a href="https://github.com/areesha-allawala" target="_blank">
+            <img src="githublogo.png" id="logogit">
+            <a href="https://www.linkedin.com/in/areesha-alamgir-677107257/" target="_blank">
+                <img src="Linkedinlogo.png" id="logolinked">
+            </a>
+        </center>
+    </footer>
+    </section>
+
+
     
-    <tr>
-        <td><div class= "desc"> <p>Check out my LinkedIn!</p></div></td>
-        <td> <div class="links"> </p> <a href="https://www.linkedin.com/in/areesha-alamgir-677107257/">Here!</a>  </div> </td>
-    </tr>
-    </table>
-
-
-
  </body>
  </html>

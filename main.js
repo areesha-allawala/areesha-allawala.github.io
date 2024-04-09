@@ -14,3 +14,8 @@ window.onclick = function(e) {
     }
   }
 }
+
+function changeColor() {
+  document.body.style.backgroundColor = "#000";
+  document.body.style.color = "#fff";
+}
